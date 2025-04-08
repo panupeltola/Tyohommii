@@ -188,6 +188,29 @@ Uudelleen nimeämisen ehtoihin voisi lisätä, että ohittaa tiedostot joissa ni
 
 Kaikki kaikessa, skripti toimii.
 
+## Lisää tiedostot kansioon
+
+Ajan skriptin 'add_string_beginning_select_folder.py'
+
+Kansiona käytän Kansiota "Keran_alue/4000_Rakennusteksiset_rakenneosat/Sillat/U-387_S10_Dreijaportin_AK_P" uuid: 526c55ba-c27d-48a9-b4f9-b543fde4b991
+
+Haluan kaikkien tiedostojen nimien eteen "U-387_"
+
+Ajoin komennon ja oikeat syötteet ilmestyivät oikeaan paikkaan.
+
+![image](https://github.com/user-attachments/assets/11d16a68-9b1d-4d2e-bff8-22e758a7165b)
+
+Voin siis todeta näiden ohjelmien toimivan.
+
+Tehtäväksi jää:
+
+- Ota kansio valokuvineen ulos ja testaa ajoa
+- Lisää laskuri tiedostojen nimeämiseen
+- Tee ohje
+
+
+
+
 
 
 

@@ -32,13 +32,13 @@ Replace korvaa merkkijonon tyhjällä.
 
 Kun uusi nimi on määritetty, dokumentti nimetään uudelleen API rajapinnan yli PUT komennolla.
 
-'''
-import requests
-import json
-import re
+
+    import requests
+    import json
+    import re
 
 
-class RenameImages:
+    class RenameImages:
     def __init__(self, base_url, username, password, project_uuid):
         self.bearer = None
         self.base_url = base_url
@@ -144,7 +144,7 @@ class RenameImages:
         for folder in folders:
             self.rename_folder_documents(folder, userInputC)
 
-sync = RenameImages(base_url="app.infrakit.com", username="", password="", project_uuid="") #Tähän käyttäjä ja salasana, project uuid saa pääkäyttäjän projektien hallinnasta (ei siis projektin asetukset)
-sync.main()
-'''
+    sync = RenameImages(base_url="app.infrakit.com", username="", password="", project_uuid="") #Tähän käyttäjä ja salasana, project uuid saa pääkäyttäjän projektien hallinnasta (ei siis projektin asetukset)
+    sync.main()
+
 

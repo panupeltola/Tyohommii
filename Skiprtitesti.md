@@ -147,4 +147,58 @@ Kun uusi nimi on määritetty, dokumentti nimetään uudelleen API rajapinnan yl
     sync = RenameImages(base_url="app.infrakit.com", username="", password="", project_uuid="") #Tähän käyttäjä ja salasana, project uuid saa pääkäyttäjän projektien hallinnasta (ei siis projektin asetukset)
     sync.main()
 
+## Ajo
+
+*7:35*
+
+Ennen komennon ajamista, tiedostojen nimet on otettu talteen Infrakitin "File summary" ominaisuudella.
+
+Ajan ohjelman komennolla 'python .\delete_string_select_folder.py'
+
+![image](https://github.com/user-attachments/assets/87d105ba-e97f-462d-981c-a5acd1156bab)
+
+Käyttäjänimi, salasana ja project_uuid on säädetty skirptin loppuun
+
+
+![image](https://github.com/user-attachments/assets/ac1ba615-ada2-4988-ba49-49a20d1145ae)
+
+Ohjelman kysyessä syötettä, annan juurikansioksi b51cf46e-dbcd-48e2-b753-a4a8f073f882
+
+![image](https://github.com/user-attachments/assets/54aa0d90-1dc0-4034-b38b-58c706c39c9a)
+
+Kansion haku oli hidas, en seurannut aktiivisesti, mutt kesti noin 2-7 minuuttia ennen kuin kysyi seuraavaa promptia
+
+![image](https://github.com/user-attachments/assets/a4069f71-4a44-4289-8847-89cfcbf237d2)
+
+Annoin poistettavaksi 'IR233797_'
+
+Noin 7 minuuttia myöhemmin lista oli käyty läpi. Rivinumeroiden mukaan 797 tiedostoa uudelleennimettiin.
+
+Ennen:
+
+![image](https://github.com/user-attachments/assets/30d1f33a-58b7-4ba1-a16b-d9d1b4604c87)
+
+Jälkeen:
+
+![image](https://github.com/user-attachments/assets/53b2d29a-2dd0-43c8-83b5-e13b89909d85)
+
+Yksi tiedosto jäi poistamatta, syynä eri tavalla kirjoittaminen, voisi varmistaa muuttamalla syötteen ja tarkistuksen isolla kirjoitettuna.
+
+Uudelleen nimeämisen ehtoihin voisi lisätä, että ohittaa tiedostot joissa nimeä ei ole, turhaan kutsuu funktiota muuten.
+
+Kaikki kaikessa, skripti toimii.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

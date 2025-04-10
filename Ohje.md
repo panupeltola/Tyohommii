@@ -106,6 +106,16 @@ Ohjelman ajon lopuksi se palaa tilaan, jossa näkyy sijainti kansiorakenteessa j
 ![image](https://github.com/user-attachments/assets/2433ffc9-f1a2-464d-a532-e778d25003df)
 
 
+## Lisäys
+
+Lisäysohjelma toimii pitkälti samalla tapaa. Sen askeleet ovat:
+
+1. Lisää käyttäjätunnus, salasana ja projekti uuid tiedostoon
+2. Etsi haluamasi alkukansio
+3. Aja ohjelma 'python .\<ohjelman nimi>
+4. Kun ohjelma pyytää, lisää haluamasi teksti, joka tulee tiedoston alkuun (Muista lisätä alaviiva jos haluat sen tiedostoon)
+5. Katso, kun tiedostot nimetään uudelleen
+
 
 
 

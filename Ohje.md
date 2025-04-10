@@ -117,6 +117,12 @@ Lisäysohjelma toimii pitkälti samalla tapaa. Sen askeleet ovat:
 5. Katso, kun tiedostot nimetään uudelleen
 
 
+# Muuta
+
+Tallenna päätteen tekstisyöte myöhempää tarkistamista varten
+Tallenna tiedostojen yhteenveto aina muutosta ennen ja jälkeen
+
+
 
 
 
